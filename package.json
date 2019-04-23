@@ -1,0 +1,21 @@
+{
+  "name": "ngrokqr",
+  "productName": "ngrokqr",
+  "version": "0.0.1",
+  "description": "ngrok with a qr generation component.",
+  "main": "index.js",
+  "author": "mstark5652",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstark5652/ngrokqr.git"
+  },
+  "bin": {
+    "ngrokqr": "cli.js"
+  },
+  "dependencies": {
+    "awesome-qr": "git+https://github.com/mstark5652/Awesome-qr.js.git",
+    "command-line-parser": "git+https://github.com/mstark5652/command-line-parser.git",
+    "ngrok": "3.1.1"
+  }
+}

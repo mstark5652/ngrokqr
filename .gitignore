@@ -1,0 +1,13 @@
+node_modules
+*.log
+output/
+
+.vs_code
+
+# Config
+
+config.json
+gc.json
+
+# Babel
+.babel_cache/
