@@ -14,7 +14,7 @@ function openImage(filePath) {
 	console.log("TODO: open image at: " + filePath);
 }
 
-module.exports = async (arguments, cwd) => {
+module.exports = async () => {
 	console.log(options);
 	const url = await ngrok.connect(options.port || 8080);
 	console.log(`Tunnel at: ${url}`);
