@@ -9,8 +9,9 @@ function imageFilePath() {
 	return path.resolve(os.tmpdir(), 'qr.png');
 }
 
+// TODO: open image
 function openImage(filePath) {
-	console.log("Unable to image at: " + filePath);
+	console.log("TODO: open image at: " + filePath);
 }
 
 module.exports = async (arguments, cwd) => {
