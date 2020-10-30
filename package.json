@@ -1,7 +1,7 @@
 {
   "name": "ngrokqr",
   "productName": "ngrokqr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ngrok with a qr generation component.",
   "main": "index.js",
   "author": "mstark5652",
