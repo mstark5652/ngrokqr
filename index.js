@@ -1,16 +1,16 @@
 const ngrok = require('ngrok');
 const AwesomeQR = require('awesome-qr');
-const options = require('command-line-parser')();
+const options = require('st-cl-parser')();
 const fs = require('fs');
 
-function imageFilePath() {
+function imageFilePath () {
 	const os = require('os');
 	const path = require('path');
 	return path.resolve(os.tmpdir(), 'qr.png');
 }
 
 // TODO: open image
-function openImage(filePath) {
+function openImage (filePath) {
 	console.log("TODO: open image at: " + filePath);
 }
 
